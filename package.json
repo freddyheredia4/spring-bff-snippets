@@ -1,0 +1,35 @@
+{
+  "name": "spring-bff-snippets",
+  "publisher": "FreddyHeredia",  
+  "displayName": "spring-bff-snippets",
+  "description": "Snippets for spring boot microservice bff (Backend for frontend)",
+  "version": "0.0.1",
+  "icon": "images/spring-bff-snippets.png",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/freddyheredia4/spring-bff-snippets"
+  },
+  "keywords": [
+      "Spring Boot",
+      "Spring Framework",
+      "Java",
+      "BFF"
+  ],
+  "scripts": {
+    "package": "npx vsce package"
+  },  
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "java",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
